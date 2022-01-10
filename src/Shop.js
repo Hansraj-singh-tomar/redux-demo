@@ -25,7 +25,7 @@ const Shop = () => {
             {/* bindActionCreators ka use karne par  */}
             {/* <button className="btn btn-primary mx-2" onClick={() => { actions.withdrawMoney(100) }}>-</button> */}
             <button className="btn btn-primary mx-2" onClick={() => { withdrawMoney(100) }}>-</button>  {/* object destructuring ka use kiya hai hamne yha par */}
-            Update Balance {balance}
+            Update Balance {balance}  {/* double curly brackets se mujhe mera pura UI hi nhi dikh rha tha  */}
             {/* <button className="btn btn-primary mx-2" onClick={() => { actions.depositMoney(100) }}>+</button> */}
             <button className="btn btn-primary mx-2" onClick={() => { depositMoney(100) }}>+</button>   {/* object destructuring ka use kiya hai hamne yha par */}
         </div>
